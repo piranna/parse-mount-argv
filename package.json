@@ -1,0 +1,24 @@
+{
+  "name": "parse-mount-argv",
+  "version": "0.0.0",
+  "description": "Parse CLI arguments as expected by `mount` comand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/parseMountArgv.git"
+  },
+  "keywords": [
+    "fs",
+    "fuse",
+    "filesystem"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piranna/parseMountArgv/issues"
+  },
+  "homepage": "https://github.com/piranna/parseMountArgv#readme"
+}
