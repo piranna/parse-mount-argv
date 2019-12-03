@@ -5,9 +5,9 @@ function setOption(arg)
 {
   arg = arg.split('=')
 
-  var key, value
+  let key, value
 
-  if(arg.length > 1)
+  if(arg.length)
   {
     key   = arg.shift()
     value = arg.join('=')
@@ -26,18 +26,9 @@ function processOptions(arg)
   arg.split(',').forEach(setOption, this)
 }
 
-function parse(argv)
+function parse([dev, path, ...argv], options = {})
 {
-  const options = {}
-
-  const result =
-  {
-    dev:     argv[0],
-    path:    argv[1],
-    options: options
-  }
-
-  argv = argv.slice(2)
+  const result = {dev, options, path}
 
   while(argv.length)
   {
