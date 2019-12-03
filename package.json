@@ -1,6 +1,6 @@
 {
   "name": "parse-mount-argv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse CLI arguments as expected by `mount` comand",
   "main": "index.js",
   "scripts": {
